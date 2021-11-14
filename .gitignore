@@ -1,9 +1,19 @@
 # Local .terraform directories
 **/.terraform/*
 
+terraform/**/.terraform/*
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*.tfvars
+*.zip
+
+**/.zip
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.terraform.*
+terraform/*.tfvars
 
 # Crash log files
 crash.log
@@ -27,3 +37,12 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+*tfplan*
+
+terraform/*tfplan*
+
+# Python ignore files 
+__pycache__/
+*.py[cod]
+*$py.class
