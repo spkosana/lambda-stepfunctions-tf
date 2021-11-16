@@ -21,6 +21,7 @@ variable "runtime" {
 variable "sns_email_subscription_address_list" {
   type = list(string)
   description = "List of email addresses"
+  default = ["email1@gmail.com", "email2@gmail.com"]
 }
 
 variable "sns_email_subscription_protocol" {
