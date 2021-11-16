@@ -1,5 +1,5 @@
-# lambda-stepfunctions-tf
-### Lambda orchestration with terraform
+# Step Functions 
+### Lambda orchestration in step functions with terraform
 
 ### Aim: Orchestration of lambdas and publish SNS basec on condition
 
