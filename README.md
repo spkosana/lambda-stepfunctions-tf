@@ -1,7 +1,7 @@
 # Step Functions 
 ### Lambda orchestration in step functions with terraform
 
-### Aim: Orchestration of lambdas and publish SNS basec on condition
+### Aim: Orchestration of lambdas and publish SNS based on condition
 
 # AWS Components Overview:
 * Lambda
